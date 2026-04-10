@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCI Cycling Data Application</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>UCI Cycling Data Application</h1>
+            <p>Real-time UCI race information with daily synchronization</p>
+        </header>
+
+        <main>
+            <!-- Countdown Section -->
+            <section class="countdown-section">
+                <h2>Next Race Countdown</h2>
+                <div id="countdown-display">
+                    <p>Loading countdown...</p>
+                </div>
+            </section>
+
+            <!-- Race Listings -->
+            <section class="races-section">
+                <h2>Upcoming Races</h2>
+                <div id="races-display">
+                    <p>Loading races...</p>
+                </div>
+            </section>
+
+            <!-- Rankings Section -->
+            <section class="rankings-section">
+                <h2>UCI Rankings</h2>
+                <div class="rankings-tabs">
+                    <button class="tab-btn active" data-tab="mens">Men's Rankings</button>
+                    <button class="tab-btn" data-tab="womens">Women's Rankings</button>
+                    <button class="tab-btn" data-tab="teams">Team Rankings</button>
+                </div>
+                <div id="rankings-display">
+                    <p>Loading rankings...</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Data synchronized daily | UCI Cycling Data Application</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
